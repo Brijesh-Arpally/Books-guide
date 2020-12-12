@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: darkblue;
+}
+body {
+  background-image: url(https://mitpress.mit.edu/sites/default/files/styles/full_text_column/public/2018-02/Books%201_4.jpg?itok=cR0CdOlM);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+}
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100px;
+}
+.genres {
+  cursor: pointer;
+  background-color: skyblue;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.5rem;
+  font-weight: bold;
+}
+.genres:hover {
+  color: red;
+}
+
+.book-container {
+  margin: auto;
+  width: 100%;
+  margin-left: 7%;
+  border: solid black;
+}
+
+.book-list {
+  list-style: none;
+  color: black;
+  padding: 1rem;
+  border: 1px solid whitesmoke;
+  width: 80%;
+  margin: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  font-style: italic;
+}
